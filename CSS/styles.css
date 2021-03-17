@@ -1,0 +1,167 @@
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+.topContainer {
+  background-color: rgb(212, 243, 244);
+  margin: 2px 2px 0;
+  padding: 2%;
+  position: relative;
+}
+
+.middle-container{
+  background-color: white;
+  background-color: rgba(83,116,114,.1);
+}
+
+.profileImage{
+  width: 150px;
+  border-style: dotted;
+  border-color: #42778C;
+  border-radius: 100%;
+}
+
+.aboutMe{
+  width: 50%;
+  margin: auto;
+}
+
+.myName {
+  color: #66BFBF;
+  font-family: 'sacramento', sans-serif;
+  font-size: 562.5%;
+  margin-bottom: 0;
+}
+
+.salutation {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 0;
+  margin-left: 10rem;
+}
+
+.info {
+  position: relative;
+  top: 50px;
+}
+
+.cloud {
+  position: absolute;
+  width: 100px;
+}
+
+.cloud2 {
+  left: 20%;
+  top: 220px;
+}
+
+.cloud3 {
+  left: 80%;
+  top: 280px;
+}
+
+.mountain {
+  bottom: -60px;
+  height: 10%;
+  margin: auto;
+  position: relative;
+}
+
+
+.skill-row{
+  line-height: 2;
+  margin: 50px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.gameGif , .codingGif{
+  background-color: #42778C;
+  width: 140px;
+  border-style: dotted;
+  border-color: #FFFFFF;
+  border-radius: 100%;
+}
+
+.gameGif{
+  float: left;
+}
+
+.codingGif{
+  float: right;
+}
+
+.game{
+  margin-left: 30%;
+}
+
+.code{
+  margin-right: 30%;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-bottom: 0;
+}
+
+.contact-me{
+padding-top: 1%;
+}
+
+h3 ,a{
+  color: #11999E;
+}
+
+h2{
+  color: #42778C;
+}
+
+hr{
+ border: dotted rgb(193,222,223)  5px;
+ border-bottom: none;
+ width: 4%;
+}
+.BUTTON_GYB {
+   background: #42778C;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 5px;
+   height: 14px;
+   line-height: 14px;
+   color: #FFFFFF;
+   width: 118px;
+   font-size: 1rem;
+   font-weight: 400;
+   padding: 10px;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #42778C 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-bottom: 5%;
+}
+
+.BUTTON_GYB:hover {
+   border: solid #5191ab 1px;
+   background: #5191ab;
+   text-decoration: none;
+}
+
+.footer-link{
+  text-decoration: none;
+  margin: auto 10px;
+  font-size: 0.7rem;
+}
+
+.copyRight{
+  margin-bottom: 0;
+  font-size: 0.4rem;
+  color: white;
+}
